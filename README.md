@@ -1,7 +1,4 @@
 # Smart Watershed Treatment Area Planning and Resource Allocation System
-
-![AIS Category Graph](ais_category_graph.png)
-
 ## Project Overview
 
 The **Smart Watershed Treatment Area Planning and Resource Allocation System** is a machine learning-based project designed to analyze and predict the approved watershed treatment area under the PMKSY-WDC scheme.
@@ -13,6 +10,9 @@ This project uses district, project, and taluk-level data to estimate the **appr
 ## Project Objective
 
 The main objective of this project is to support smart decision-making in watershed development by predicting treatment area requirements and identifying important regional patterns.
+
+![AIS Category Graph](ais_category_graph.png)
+
 
 ---
 
