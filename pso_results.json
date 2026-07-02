@@ -1,0 +1,57 @@
+{
+    "project_name": "Smart Watershed Treatment Area Planning and Resource Allocation System",
+    "algorithm": "Particle Swarm Optimization",
+    "dataset_path": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\PMKSY_WDC_treatablearea_0_14.csv",
+    "output_directory": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System",
+    "target_column": "Approved Project area for treatment (in ha)",
+    "best_model": "PSO Decision Tree",
+    "records": 63,
+    "total_features_before_pso": 3,
+    "selected_features_after_pso": [
+        "Name of the Project"
+    ],
+    "categorical_features": [
+        "Name of the Project"
+    ],
+    "numeric_features": [],
+    "pso_best_feature_selection_score": -0.12405235810512893,
+    "model_results": [
+        {
+            "Model": "PSO Decision Tree",
+            "R2 Score": -0.009580603881592209,
+            "Accuracy (%)": 0,
+            "MAE": 770.4623076923076,
+            "RMSE": 899.4584757722068
+        },
+        {
+            "Model": "PSO Linear Regression",
+            "R2 Score": -0.10387639098745094,
+            "Accuracy (%)": 0,
+            "MAE": 760.8527846153847,
+            "RMSE": 940.5260784421795
+        },
+        {
+            "Model": "PSO Random Forest",
+            "R2 Score": -0.11088403025565419,
+            "Accuracy (%)": 0,
+            "MAE": 761.5891692307697,
+            "RMSE": 943.5066841291243
+        }
+    ],
+    "saved_files": {
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_result.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_prediction.csv",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_accuracy_graph.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_comparison_graph.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_result_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_prediction_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_heatmap.png",
+        "convergence_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_convergence_graph.png",
+        "best_model_pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_best_model.pkl",
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_model.h5",
+        "h5_loss_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_h5_loss_graph.png",
+        "nn_preprocessor": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_nn_preprocessor.pkl",
+        "target_scaler": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_target_scaler.pkl",
+        "selected_features_json": "C:\\Users\\NXTWAVE\\Downloads\\Smart Watershed Treatment Area Planning and Resource Allocation System\\pso_selected_features.json"
+    }
+}

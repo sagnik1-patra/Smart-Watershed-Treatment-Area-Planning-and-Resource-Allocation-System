@@ -1,0 +1,8 @@
+{
+    "sample_input": {
+        "Name of the District": "Bagalakot",
+        "Name of the Project": "Bagalkot -WDC-1/2021-22",
+        "Taluk Name": "Hunagund"
+    },
+    "predicted_approved_project_area_ha": 3954.4680999999973
+}
